@@ -6,7 +6,7 @@ from rasterio.mask import mask
 aoi = gpd.read_file("/Users/sanyam/Desktop/GIS project /IntialData/Intiial dataset/Bengaluru_AOI.geojson")
 
 # 2. Open the Map & Clip It
-with rasterio.open("finalOutput/Final_UHI_Mitigation_Map_Hybrid.tif") as src:
+with rasterio.open("/Users/sanyam/Desktop/GIS project /finalNormalizedData(afterPhase3)/Population_norm.tif") as src:
     # This one line does the actual clipping!
     out_image, out_transform = mask(src, aoi.geometry, crop=True)
     out_meta = src.meta.copy()
@@ -18,7 +18,7 @@ out_meta.update({
     "transform": out_transform
 })
 
-with rasterio.open("Final_Map_Clipped.tif", "w", **out_meta) as dest:
+with rasterio.open("Popclipped.tif", "w", **out_meta) as dest:
     dest.write(out_image)
 
 print("✅ Clipped map saved!")
