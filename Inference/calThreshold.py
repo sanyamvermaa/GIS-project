@@ -1,7 +1,7 @@
 import rasterio
 import numpy as np
 
-INPUT_MAP = "Final_Map_Clipped.tif"
+INPUT_MAP = "/Users/sanyam/Desktop/GIS project /finalOutput/Final_Map_Clipped.tif"
 
 with rasterio.open(INPUT_MAP) as src:
     data = src.read(1)
