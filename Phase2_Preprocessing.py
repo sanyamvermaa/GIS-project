@@ -20,9 +20,9 @@ import os
 
 # === Step 0: Define file paths ===
 # Make sure these are in the same folder as this script
-LST_PATH = "Bengaluru_LST_2024.tif"
-NDVI_PATH = "Bengaluru_NDVI_2024.tif"
-LULC_PATH = "Bengaluru_LULC_2024.tif"
+LST_PATH = "/Users/sanyam/Desktop/GIS project /IntialData/Intiial dataset/Bengaluru_LST_2024.tif"
+NDVI_PATH = "/Users/sanyam/Desktop/GIS project /IntialData/Intiial dataset/Bengaluru_NDVI_2024.tif"
+LULC_PATH = "/Users/sanyam/Desktop/GIS project /IntialData/Intiial dataset/Bengaluru_LULC_2024.tif"
 
 # === Step 1: Assign CRS to LST and NDVI ===
 def assign_crs(input_path, output_path, crs_code="EPSG:4326"):
