@@ -1,0 +1,4 @@
+{"Name": "Chickpet (Core City)", "Lat": 12.9719, "Lon": 77.5772, "radius": "1000", }, 
+{"Name": "Peenya Area West", "Lat": 13.0329, "Lon": 77.5273, "radius": "500"}, 
+{"Name": "Peenya East", "Lat": 13.05997, "Lon": 77.65914, "radius": "1000"}, 
+{"Name": "Near Bellandur lake", "Lat": 12.93987, "Lon": 77.64005, "radius": "500"},
