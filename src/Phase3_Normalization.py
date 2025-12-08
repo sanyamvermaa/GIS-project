@@ -7,8 +7,6 @@ This script:
 2. Creates a binary constraint mask from LULC
 3. Saves outputs for AHP/Weighted Overlay analysis
 
-Author: Sanyam Verma
-Date: November 2025
 """
 
 import rasterio

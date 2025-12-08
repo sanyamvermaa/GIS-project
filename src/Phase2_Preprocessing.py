@@ -8,8 +8,7 @@ This script:
 3. Cleans NaN / no-data pixels
 4. Prints diagnostic summary
 
-Author: Sanyam Verma
-Date: November 2025
+
 """
 
 # === Imports ===
