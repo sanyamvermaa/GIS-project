@@ -3,9 +3,9 @@ from rasterio.warp import calculate_default_transform, reproject, Resampling
 import numpy as np
 
 # Paths
-pop_path = "bengaluru_pop_100m_epsg4326.tif"
+pop_path = "/Users/sanyam/Desktop/GIS project /Data/IntialData/Intiial dataset/bengaluru_pop_100m_epsg4326.tif"
 template_path = "LST_norm.tif"      # 30 m template
-output_path = "Population_norm.tif"
+output_path = "/Users/sanyam/Desktop/GIS project /Data/finalNormalizedData(afterPhase3)/Population_norm.tif"
 
 # Load template (for CRS, transform, shape)
 with rasterio.open(template_path) as t:

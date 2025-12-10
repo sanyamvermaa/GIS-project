@@ -13,9 +13,9 @@ import rasterio
 import numpy as np
 
 # === Step 1: Define file paths ===
-LST_PATH = "Bengaluru_LST_2024_CRS_Clean.tif"
-NDVI_PATH = "Bengaluru_NDVI_2024_CRS_Clean.tif"
-LULC_PATH = "Bengaluru_LULC_2024_Resampled_Clean.tif"
+LST_PATH = "/Users/sanyam/Desktop/GIS project /Data/ppdData(afterPhase2)/Bengaluru_LST_2024_CRS_Clean.tif"
+NDVI_PATH = "/Users/sanyam/Desktop/GIS project /Data/ppdData(afterPhase2)/Bengaluru_NDVI_2024_CRS_Clean.tif"
+LULC_PATH = "/Users/sanyam/Desktop/GIS project /Data/ppdData(afterPhase2)/Bengaluru_LULC_2024_Resampled_Clean.tif"
 
 # === Step 2: Define normalization function ===
 def normalize(array, inverse=False):

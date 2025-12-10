@@ -34,10 +34,10 @@ PAIRWISE = {
 }
 ALPHA = 0.7   # weight to give to AHP; hybrid = alpha*AHP + (1-alpha)*Entropy
 # file paths (must exist)
-LST_PATH = "finalNormalizedData(afterPhase3)/LST_norm.tif"
-NDVI_PATH = "finalNormalizedData(afterPhase3)/NDVI_norm.tif"
-POP_PATH = "finalNormalizedData(afterPhase3)/Population_norm.tif"
-MASK_PATH = "finalNormalizedData(afterPhase3)/Constraint_Mask.tif"   # Now contains 1.0 and 0.0001
+LST_PATH = "Data/finalNormalizedData(afterPhase3)/LST_norm.tif"
+NDVI_PATH = "Data/finalNormalizedData(afterPhase3)/NDVI_norm.tif"
+POP_PATH = "Data/finalNormalizedData(afterPhase3)/Population_norm.tif"
+MASK_PATH = "Data/finalNormalizedData(afterPhase3)/Constraint_Mask.tif"   # Now contains 1.0 and 0.0001
 OUTPUT_DIR = "."
 # Monte Carlo settings
 MC_SAMPLES = 150        # number of perturbed AHP matrices to sample
