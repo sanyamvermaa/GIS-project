@@ -1,3 +1,4 @@
+```text
 Urban Heat Island (UHI) Mitigation Suitability Analysis - Bengaluru
 
 This project utilizes a Hybrid Multi-Criteria Decision Making (MCDM) approach combined with Monte Carlo Simulation to identify priority areas for Urban Heat Island mitigation in Bengaluru Urban. The analysis integrates satellite imagery (LST, NDVI), demographic data (Population), and land use data to produce scientifically robust suitability maps.
@@ -94,3 +95,4 @@ Final_UHI_Ensemble_std.tif: The Confidence Map. Shows where the model is uncerta
 
 uhi_weights_combined.json: Contains the mathematical proof of the weights used, including the Consistency Ratio (CR) to validate expert logic.
 
+```
